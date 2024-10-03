@@ -1,0 +1,113 @@
+
+body{
+    background-color:lightgreen;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Oswald", sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: black;
+    height: 60px;
+    color: white;
+    align-items: center;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+}
+ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.container{
+    min-height: 70vh;
+    width: 70%;
+    background-color: #4B6F44;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    margin: 20px auto;
+    padding: 34px;
+    border-radius: 20px;
+    background: url("Covers/album\ 3.jpg");
+
+}
+.buttom{
+    position: sticky;
+    background-color: black;
+    color: white;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#ProgressBar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.SongItemContainer{
+    margin-top: 75px;
+}
+
+.SongItem{
+display: flex;
+height: 50px;
+background-color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+padding:0 20px;
+border-radius: 20px;
+}
+.SongItem img{
+    height: 45px;
+    margin: 0 23px;
+}
+.timestamp{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;  
+}
+.timestamp img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vh;
+}
+.songInfo src{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.SongItem i{
+    padding: 0 10px;
+    cursor: pointer;
+}
+#SongNamedisplay{
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    display: flex;
+    
+}
